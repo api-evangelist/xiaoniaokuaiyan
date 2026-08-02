@@ -1,8 +1,28 @@
 aid: xiaoniaokuaiyan
 name: xiaoniaokuaiyan
-description: xiaoniaokuaiyan is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and blood-testing
+  service brand operated by Beijing Cloud Artery Health Management Co., Ltd (北京云动脉健康管理有限公司),
+  a Qiming-backed internet-healthcare startup based in Chaoyang, Beijing. It offers
+  on-demand at-home sample collection by licensed nurses with results processed by
+  nationally accredited laboratories, spanning routine checkups, tumor screening,
+  infection testing, chronic-disease monitoring, and custom corporate and family panels.
+  The company operates via its consumer website, WeChat official account, and mobile
+  apps; it publishes no public developer portal, documentation, or API surface. This
+  profile was added to the API Evangelist network as a Qiming portfolio lead and enriched
+  by the pipeline; the honest result is that no public API artifacts exist to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/xiaoniaokuaiyan/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://xiaoniaokuaiyan.com/images/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Health
+- Medical Testing
+- Diagnostics
+- Home Health
+- China
+- Internet Hospital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/xiaoniaokuaiyan-domain-security.yml
 - type: Website
-  url: https://xiaoniaokuaiyan.com
+  url: http://xiaoniaokuaiyan.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
