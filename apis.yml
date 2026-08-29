@@ -11,6 +11,17 @@ description: 'Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and bl
   profile was added to the API Evangelist network as a Qiming portfolio lead and enriched
   by the pipeline; the honest result is that no public API artifacts exist to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/xiaoniaokuaiyan/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
